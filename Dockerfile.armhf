@@ -31,6 +31,7 @@ ADD .pre-commit-config.yaml /code/
 ADD setup.py /code/
 ADD tox.ini /code/
 ADD compose /code/compose/
+ADD README.md /code/
 RUN tox --notest
 
 ADD . /code/
